@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Storybooks Rwanda</title>
+    <description>Storybooks Rwanda is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in Kinyarwanda and French, as well as the most widely spoken languages of Rwanda.
+</description>
+    <link>https://global-asp.github.io//storybooks-rwanda/</link>
+    <atom:link href="https://global-asp.github.io//storybooks-rwanda/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 20 May 2018 19:32:01 -0700</pubDate>
+    <lastBuildDate>Sun, 20 May 2018 19:32:01 -0700</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+  </channel>
+</rss>
