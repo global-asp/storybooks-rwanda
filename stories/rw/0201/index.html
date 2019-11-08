@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks Rwanda is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in Kinyarwanda and French, as well as the most widely spoken languages of Rwanda.
 ">
 	<link rel="stylesheet" href="/storybooks-rwanda/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-rwanda/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-rwanda/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-rwanda/stories/rw/0201/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Rwanda" href="/storybooks-rwanda">
 	<script src="/storybooks-rwanda/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -69,17 +72,16 @@
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/01.mp3"></audio>
+			<button class="btn btn-lg disabled" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 			<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
 			<button onclick="switchlang('rw,fr','rw,fr,rw')" class="btn btn-lg lang-secondary" title="Switch between Kinyarwanda and French">fr</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-rwanda/css/pencil.svg" alt="Written by"></span> Lindiwe Matshikiza</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-rwanda/css/art.svg" alt="Illustrated by"></span> Meghan Judge</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon" src="/storybooks-rwanda/css/global.svg" alt="Translated by"></span> Patrick Munyurangabo</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-rwanda/css/language.svg" alt="Language"></span> <a href="/storybooks-rwanda/stories/rw">Kinyarwanda</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-rwanda/css/level.svg" alt="Level"></span> <a href="/storybooks-rwanda/stories/rw/level3">Level 3</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-rwanda/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/rw/0201/rw-0201_donkey.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-rwanda/css/pencil.svg" alt="Written by"></span> Lindiwe Matshikiza</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-rwanda/css/art.svg" alt="Illustrated by"></span> Meghan Judge</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon cover-icon-text" src="/storybooks-rwanda/css/global.svg" alt="Translated by"></span> Patrick Munyurangabo</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-rwanda/css/language.svg" alt="Language"></span> <a href="/storybooks-rwanda/stories/rw">Kinyarwanda</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-rwanda/css/level.svg" alt="Level"></span> <a href="/storybooks-rwanda/stories/rw/level3">Level 3</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-text" src="/storybooks-rwanda/css/speaker.svg" alt="Narrate full story"></span> <span class="cover_msg">The audio for this story is currently not available.</span></h3>
 	</div>
 </div>
 <hr>
@@ -100,8 +102,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/02.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -128,8 +129,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/03.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -150,14 +150,13 @@
 	Umunyamasoni ariko utinyutse, umukobwa yagiye hafi y’umugore. “Tugomba kumugubimisha natwe,” abantu bumukobwa myto baravuga. “Turamugubisha amahoro we n’umwana we.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Timide mais brave, la petite fille se rapprocha de la femme. « Nous devons la garder avec nous, » le peuple de la petite fille dit. « Nous la garderons en sécurité, ainsi que son enfant. »
+	Timide mais brave, la petite fille se rapprocha de la femme. « Nous devons la garder avec nous, » dit le peuple de la petite fille. « Nous la garderons en sécurité, ainsi que son enfant. »
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/04.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -184,8 +183,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/05.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -212,8 +210,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/06.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -234,14 +231,13 @@
 	Buri umwe yatangiye kuvuga. “Twavuze ko turibugumishe umubyeyi n’umwana amahoro, kandi ni ibyo turi bukore,” bamwe baravuze. “Ariko bazatuzanira imigisha mibi!” abandi baravuga.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Tout le monde commença à se disputer. « Nous avions dit que nous garderions mère et enfant en sécurité et c’est ce que nous ferons, » quelques-uns ont dit. « Mais ils vont nous porter malchance ! » ont dit d’autres.
+	Tout le monde commença à se disputer. « Nous avions dit que nous garderions mère et enfant en sécurité et c’est ce que nous ferons, » dirent quelques-uns. « Mais ils vont nous porter malchance ! » dirent d’autres.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/07.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -262,14 +258,13 @@
 	Nuko umugore yisanga wenyine nanone. Yibijije icyo akora n’umwana udasazwe. Yibajije icyo guko kuri we.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Ainsi, la femme se retrouva seule encore une fois. Elle se demanda quoi faire avec cet enfant malcommode. Elle se demanda quoi faire avec elle-même.
+	Ainsi, la femme se retrouva seule encore une fois. Elle se demanda quoi faire de cet enfant embarrassant. Elle se demanda quoi faire d’elle-même.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/08.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -296,8 +291,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text10" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/09.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton09" onclick="playpause('09')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -324,8 +318,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text09" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text11" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio10" onended="resetbutton('10')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/10.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton10" onclick="playpause('10')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -352,8 +345,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text10" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text12" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio11" onended="resetbutton('11')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/11.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton11" onclick="playpause('11')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -374,14 +366,13 @@
 	indogoba yuzuye ikimwaro. Yatangiye kwiruka kure kandi yihuta bishoboka.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Âne fut rempli de honte. Il commença à se sauver aussi vite et aussi loin qu’il pouvait.
+	Âne fut rempli de honte. Il commença à se sauver aussi vite et aussi loin qu’il pu.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text11" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text13" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio12" onended="resetbutton('12')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/12.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton12" onclick="playpause('12')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -402,14 +393,13 @@
 	Igihe yahagarikaga kwiruka, byari ninjoro kandi yatakaye (itazi aho iri). “Hee haw?” Nyiramubande iravuga. Yari wenyine. Irihinahina mo akazeru, irasinziramo cyane byakababaro.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Quand il arrêta de courir, la nuit était tombée et Âne était perdu. « Hi han ? » il chuchota à la noirceur. « Hi han ? » la noirceur retourna en écho. Il était seul. Se lovant en petite boule, troublé, il s’endormit profondément.
+	Quand il s’arrêta de courir, la nuit était tombée et Âne était perdu. « Hi han ? » il chuchota à la noirceur. « Hi han ? » retourna la noirceur en écho. Il était seul. Se lovant en petite boule, il tomba dans un sommeil profond et agité..
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text12" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text14" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio13" onended="resetbutton('13')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/13.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton13" onclick="playpause('13')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -436,8 +426,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text13" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text15" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio14" onended="resetbutton('14')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/14.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton14" onclick="playpause('14')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton14" onclick="playpause('14')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -458,14 +447,13 @@
 	Indogobe yagiye kugumana nawamugabo ukuze, wamwigishije umuryo bwinshi byo kubaho. Indogobe yarunvishe iramenya, n’umugabo yarabirkoze. Barafashanyije, baranasekana hamwe.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Âne parti vivre avec le vieil homme, qui lui montra plusieurs façons de survivre. Âne écouta et il apprit, et le vieil homme aussi. Ils s’aidèrent tous les deux et ils rirent ensemble.
+	Âne parti vivre avec le vieil homme, qui lui montra plusieurs façons de survivre. Âne écouta et apprit, et le vieil homme aussi. Ils s’aidèrent l’un l’autre et ils rirent ensemble.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text14" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text16" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio15" onended="resetbutton('15')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/15.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton15" onclick="playpause('15')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton15" onclick="playpause('15')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -492,8 +480,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text15" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text17" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio16" onended="resetbutton('16')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/16.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton16" onclick="playpause('16')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton16" onclick="playpause('16')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -520,8 +507,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text16" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text18" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio17" onended="resetbutton('17')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/17.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton17" onclick="playpause('17')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton17" onclick="playpause('17')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -542,14 +528,13 @@
 	…Ibihu byari byagiye hamwe n’inshuti ye, wamugabo ukuze.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	… les nuages étaient disparus avec son ami le vieil homme.
+	… les nuages avaient disparus avec son ami le vieil homme.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text17" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text19" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio18" onended="resetbutton('18')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/18.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton18" onclick="playpause('18')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton18" onclick="playpause('18')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -576,8 +561,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text18" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text20" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio19" onended="resetbutton('19')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/19.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton19" onclick="playpause('19')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton19" onclick="playpause('19')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -604,8 +588,7 @@
 	<div class="btn-group switcher-group">
 		<a href="#text19" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text21" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio20" onended="resetbutton('20')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/20.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton20" onclick="playpause('20')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton20" onclick="playpause('20')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -626,14 +609,13 @@
 	Umwana w’indogobe na nyina we barakuranye hamwe bana bono uburyo bwo kubana uruhande k’urundi. Buhoro, iruhande rwabo, indi miryango yatangiye kuhatura.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	L’enfant-âne et sa mère ont grandis ensemble et ils ont trouvé plusieurs manières de coexister. Lentement, tout autour d’eux, d’autres familles ont commencés à s’installer.
+	L’enfant-âne et sa mère ont grandi ensemble et ils ont trouvé plusieurs manières de coexister. Lentement, tout autour d’eux, d’autres familles ont commencé à s’installer.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text20" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="Story credits"><i class="icon-arrow-down"></i></a>
-		<audio id="audio21" onended="resetbutton('21')" src="https://globalstorybooks.net/media/audio/rw/0201/mp3/21.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton21" onclick="playpause('21')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton21" onclick="playpause('21')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('rw,rw','rw,fr,rw')" class="btn btn-lg lang-primary" title="Switch between Kinyarwanda and Kinyarwanda">rw</button>
@@ -663,7 +645,7 @@
 			<label class="chip"><a href="/storybooks-rwanda/stories/rw/0141/">Inkoko Na Magurijana</a></label>
 			<label class="chip"><a href="/storybooks-rwanda/stories/rw/0315/">Indirimbo ya Sakima</a></label>
 			<label class="chip"><a href="/storybooks-rwanda/stories/rw/0006/">Anansi n’Ubwenge</a></label>
-			<label class="chip"><a href="/storybooks-rwanda/stories/rw/0324/">Umunsi navuye murugo nerekeje m’umugi.</a></label>
+			<label class="chip"><a href="/storybooks-rwanda/stories/rw/0324/">Umunsi navuye murugo nerekeje m’umugi</a></label>
 			<label class="chip"><a href="/storybooks-rwanda/stories/rw/0158/">Inkoko N’Agaca</a></label>
 	</div>
 </div>
@@ -672,6 +654,8 @@
 	<a class="btn btn-lg" href="/storybooks-rwanda/stories/rw" class="button">Back to stories list</a> <a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 
